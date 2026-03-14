@@ -1,0 +1,139 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+ }
+
+ header {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background: #00000000;
+    align-items: center;
+    padding-left: 100px;
+
+ }
+
+ a {
+    margin-left: 25px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #989D9C;
+    cursor: pointer;
+ }
+
+ a:hover {
+    color: #989d9c9f;
+ }
+
+ button {
+    margin-left: 25px;
+    width: 130px;
+    height: 41px;
+    border-radius: 20.5px;
+    background: #665AE1;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #fff;
+    cursor: pointer;
+ }
+
+
+ button:hover{
+    background-color: #655ae1d2;
+ }
+
+
+ .div1 {
+    width: 1500px;
+    height: 700px;
+    background: #655ae100;
+    margin-top: 100px;
+    margin-left: 170px;
+    display: flex;
+ }
+
+
+ .sec1 {
+    width: 680px;
+    height: 700px;
+    background: #989d9c00;
+
+ }
+
+
+  .sec2 {
+    width: 600px;
+    height: 700px;
+    background: #15ad8e00;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    
+
+ }
+
+ img {
+    width: 568px;
+    height: 500px;
+ }
+
+
+ h1 {
+    width: 513px;
+    height: 122px;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 100%;
+    color: #515151;
+    margin-bottom: 580px;
+    position: fixed;
+ }
+
+ h2 {
+    width: 448px;
+    height: 71px;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 100%;
+    color: #515151;
+    position: fixed;
+    margin-bottom: 380px;
+ }
+
+ p {
+    width: 515px;
+    height: 87px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: #848484;
+    position: fixed;
+    margin-bottom: 200px;
+  
+ }
+
+ .botao2 {
+    position: fixed;
+    width: 230px;
+    height: 64px;
+    border-radius: 40px;
+    box-shadow: 1px 2px 2px #00000057;
+    background: #ADFF00;
+    margin-left: -4px;
+    margin-top: 55px;
+    font-weight: 700;
+    font-size: 28px;
+    color: #000;
+
+ }
+
+ .botao2:hover{
+    background-color: #aeff00ad;
+ }
